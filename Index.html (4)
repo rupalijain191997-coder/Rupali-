@@ -94,3 +94,4 @@ nav a:hover { color: #ffc107; }
 <h2 style="color: var(--primary-blue); border-bottom: 2px solid #ddd; padding-bottom: 10px;">Study Material & PDFs</h2>
 <div class="pdf-grid">
 <a href="#" class="pdf-btn">📄 Current Affairs
+
