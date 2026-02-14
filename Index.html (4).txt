@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EduPortfolio | All Govt Exam Updates</title>
+<style>
+:root { --primary-blue: #002e5b; --accent-red: #cc0000; --bg-gray: #f8f9fa; }
+body { font-family: 'Roboto', Arial, sans-serif; margin: 0; background-color: var(--bg-gray); }
+
+/* Header & Navigation */
+header { background: var(--primary-blue); color: white; padding: 20px; text-align: center; }
+nav { background: #001a33; padding: 10px; text-align: center; position: sticky; top: 0; z-index: 1000; }
+nav a { color: white; text-decoration: none; margin: 0 12px; font-weight: 500; font-size: 14px; text-transform: uppercase; }
+nav a:hover { color: #ffc107; }
+
+/* Ticker */
+.news-ticker { background: #ffeb3b; padding: 8px; font-weight: bold; border-bottom: 1px solid #ddd; }
+
+/* Main Layout */
+.main-container { max-width: 1200px; margin: 20px auto; padding: 0 15px; display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; }
+
+/* Cards Section */
+.exam-card { background: white; border: 1px solid #ddd; border-radius: 4px; overflow: hidden; }
+.card-header { background: var(--primary-blue); color: white; padding: 10px; font-size: 16px; font-weight: bold; text-align: center; }
+.card-body { padding: 10px; height: 350px; overflow-y: auto; }
+
+.update-link { display: block; padding: 8px 0; border-bottom: 1px dashed #ccc; color: #333; text-decoration: none; font-size: 13px; }
+.update-link:hover { color: var(--accent-red); background: #fdfdfd; }
+.new-icon { color: red; font-weight: bold; font-size: 10px; vertical-align: top; margin-right: 5px; }
+
+/* PDF Section */
+.pdf-section { grid-column: span 3; background: white; padding: 20px; margin-top: 20px; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+.pdf-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-top: 15px; }
+.pdf-btn { background: #28a745; color: white; padding: 10px; text-align: center; text-decoration: none; border-radius: 4px; font-weight: bold; }
+
+@media (max-width: 900px) { .main-container { grid-template-columns: 1fr; } .pdf-section { grid-column: span 1; } }
+</style>
+</head>
+<body>
+
+<header>
+<h1>EDUPORTFOLIO</h1>
+<p>Bharat ki Sabhi Sarkari Naukriyon ki Latest Jankari</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Latest Jobs</a>
+<a href="#">Admit Card</a>
+<a href="#">Results</a>
+<a href="#">Syllabus</a>
+<a href="#">Answer Key</a>
+</nav>
+
+<div class="news-ticker">
+<marquee scrollamount="5">🔥 SSC CGL 2026 Notification Expected Soon | Railway NTPC Stage 2 Exam Dates | UPSC Prelims 2026 Form Correction Window Open</marquee>
+</div>
+
+<div class="main-container">
+<div class="exam-card">
+<div class="card-header">LATEST JOBS</div>
+<div class="card-body">
+<a href="#" class="update-link"><span class="new-icon">NEW</span>SSC CHSL Online Form 2026</a>
+<a href="#" class="update-link"><span class="new-icon">NEW</span>UP Police Constable Recruitment</a>
+<a href="#" class="update-link"><span class="new-icon">NEW</span>Bank of Baroda PO Vacancy</a>
+<a href="#" class="update-link">Railway Group D Online Apply</a>
+<a href="#" class="update-link">UPSC Civil Services 2026</a>
+<a href="#" class="update-link">MPPEB Sub-Engineer Post</a>
+</div>
+</div>
+
+<div class="exam-card">
+<div class="card-header">ADMIT CARD</div>
+<div class="card-body">
+<a href="#" class="update-link"><span class="new-icon">NEW</span>IBPS Clerk Mains Admit Card</a>
+<a href="#" class="update-link">CTET January 2026 Hall Ticket</a>
+<a href="#" class="update-link">SSC GD Constable Admit Card</a>
+<a href="#" class="update-link">NTA UGC NET June Cycle</a>
+</div>
+</div>
+
+<div class="exam-card">
+<div class="card-header">RESULTS</div>
+<div class="card-body">
+<a href="#" class="update-link"><span class="new-icon">NEW</span>UGC NET Dec 2025 Final Result</a>
+<a href="#" class="update-link">SSC CGL Tier 1 Marks</a>
+<a href="#" class="update-link">SBI PO Final Merit List</a>
+<a href="#" class="update-link">Bihar Police Result Out</a>
+</div>
+</div>
+
+<div class="pdf-section">
+<h2 style="color: var(--primary-blue); border-bottom: 2px solid #ddd; padding-bottom: 10px;">Study Material & PDFs</h2>
+<div class="pdf-grid">
+<a href="#" class="pdf-btn">📄 Current Affairs
